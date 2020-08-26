@@ -8,7 +8,7 @@ git clone https://github.com/vanya-36/Dress-Recommender.git
 ```
 
 ```bash
-cd Dress-Recommender-master/dress_rec
+cd Dress-Recommender/dress_rec
 ```
 
 ```bash
