@@ -9,6 +9,7 @@ git clone https://github.com/vanya-36/Dress-Recommender.git
 
 ```bash
 cd Dress-Recommender/dress_rec
+pip3 install -r requirements.txt
 ```
 
 ```bash
