@@ -13,7 +13,7 @@ pip3 install -r requirements.txt
 ```
 
 ```bash
-export FLASK_APP=dress_rec.py
+export FLASK_APP=app.py
 flask run
 ```
 
