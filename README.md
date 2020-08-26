@@ -4,7 +4,7 @@ A simple dress recommender web app
 ### Running it locally
 
 ```bash
-git clone https://github.com/PostureCorrectionSystem/HCL_Hackathon.git
+git clone https://github.com/vanya-36/Dress-Recommender.git
 ```
 
 ```bash
@@ -17,6 +17,6 @@ flask run
 ```
 
 
-*  Go to browser on your 127.0.0.1/5000/
+*  Go to 127.0.0.1/5000/ on your browser
 
 
