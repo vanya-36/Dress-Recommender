@@ -1,0 +1,34 @@
+<html>
+<head><title>Dress Recommender</title></head>
+<body>
+
+<h2 style="color: 191970; font-size:18px">Dress recommender</h2>
+
+
+<form action="http://localhost:5000/thanks" method="post" novalidate>
+{{ form.hidden_tag() }}
+<p font-size:16px">Choose your dress preferences</p>
+
+
+<div>
+	{{ form.fabric.label }}<br>
+	{{ form.fabric }}<br>
+
+</div>
+<div>
+
+	{{ form.occasion.label }}<br>
+	{{ form.occasion }}<br>
+
+</div>
+<div>
+
+	{{ form.pattern.label }}<br>
+	{{ form.pattern }}<br>
+
+</div>
+<div align="right">{{ form.submit() }}</div>
+</form>
+</body>
+</html>
+
