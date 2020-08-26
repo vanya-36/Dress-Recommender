@@ -12,6 +12,7 @@ class classifier:
     def __init__(self,s_dress):
         self.s_dress=s_dress
         #CHANGE FILE PATH ACCORDING TO YOUR OPERATING SYSTEM 
+        f = open (os.path.expanduser("~/Dress-Recommender/dress_rec/new_product_dump - facet_dump1.csv"))
         dataset = pd.read_csv("~/Dress-Recommender/dress_rec/new_product_dump - facet_dump1.csv") #For Mac
         self.links = dataset.iloc[:,10].values
         lines=f.readlines()
