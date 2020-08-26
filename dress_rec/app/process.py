@@ -11,7 +11,7 @@ class classifier:
 
     def __init__(self,s_dress):
         self.s_dress=s_dress
-        f = open (os.path.expanduser("~/Downloads/new_product_dump - facet_dump1.csv"))
+        f = open (os.path.expanduser("~/Dress-Recommender/dress_rec/new_product_dump - facet_dump1.csv"))
         #f=open("iCloud Drive▸Desktop▸dress_set.txt")
         dataset = pd.read_csv("~/Downloads/new_product_dump - facet_dump1.csv")
         self.links = dataset.iloc[:,10].values
